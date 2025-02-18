@@ -25,7 +25,7 @@ Users can pause, resume, reset, and manually adjust time settings using push but
 - Pressing the reset button triggers an **external interrupt (INT0)**, setting the stopwatch to **00:00:00** and switching it back to **count-up mode**.  
 
 ✔ **Timer-Based Operation**  
-- Uses **16-bit Timer1 in CTC (Clear Timer on Compare) Mode**, generating an **interrupt every second** to update the time.  
+- Uses **16-bit Timer1 in CTC (Clear Timer on Compare) Mode**, generating an **interrupt every second** to update the time. (Refer to [Datasheet][docs/ATmega32.pdf])
 
 ✔ **Visual Indicators**  
 - **LED indicators** to show the current mode (count-up/count-down).  
